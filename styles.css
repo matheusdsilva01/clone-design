@@ -753,6 +753,10 @@ footer .container-footer>.social-medias div img {
     }
 
     /* footer */
+    footer {
+        padding: 48px 25px;
+    }
+
     footer .container-footer {
         flex-direction: column;
         align-items: start;
@@ -766,9 +770,15 @@ footer .container-footer>.social-medias div img {
         order: 3;
     }
 
+    footer nav ul {
+        column-gap: 19px;
+        flex-wrap: wrap;
+    }
+
     footer .container-footer>.social-medias {
         order: 2;
         column-gap: 17px;
         margin-bottom: 34px;
     }
+
 }
